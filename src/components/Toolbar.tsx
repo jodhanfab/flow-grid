@@ -10,8 +10,8 @@ import {
   PanelLeftOpen,
   Sun,
   Moon,
-  Settings,
-  User,
+  // Settings,
+  // User,
   Network,
   LayoutGrid,
 } from 'lucide-react';
