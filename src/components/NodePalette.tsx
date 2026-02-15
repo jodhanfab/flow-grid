@@ -113,11 +113,11 @@ export function NodePalette() {
             placeholder="Search nodes..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-9 pr-3 py-2 text-[13px] border border-[var(--border-color)] rounded-[var(--radius-md)] bg-[var(--bg-app)] dark:bg-[var(--color-neutral-800)] text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent transition-[var(--transition-fast)]"
+            className="w-full pl-16 pr-3 py-2 text-[13px] border border-[var(--border-color)] rounded-[var(--radius-md)] bg-[var(--bg-app)] dark:bg-[var(--color-neutral-800)] text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent transition-[var(--transition-fast)]"
           />
         </div>
       </div>
-      <div className="flex-1 overflow-y-auto p-3">
+      <div className="flex-1 overflow-y-auto scrollbar-thin  p-3">
         {Array.from(byCategory.entries()).map(([category, items]) => (
           <div key={category} className="mb-5">
             <h3 className="text-[11px] font-semibold uppercase tracking-widest text-[var(--text-secondary)] px-2 py-1.5">

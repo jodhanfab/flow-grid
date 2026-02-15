@@ -130,8 +130,8 @@ export function Toolbar() {
       style={{ height: '56px' }}
     >
       <div className="flex items-center gap-6">
-        <h1 className="text-lg font-semibold tracking-tight text-[var(--text-primary)] select-none">
-          Flow
+        <h1 className="text-lg font-semibold tracking-tight text-[var(--text-primary)] select-none bg-red-900! px-2 rounded-full text-white italic">
+          Grid Flow
         </h1>
         <nav className="flex items-center gap-0.5">
           <ToolbarButton onClick={handleSave} title="Save" icon={<Save {...iconProps} />} />
@@ -163,7 +163,7 @@ export function Toolbar() {
           <select
             value={edgeType}
             onChange={(e) => setEdgeType(e.target.value as EdgeTypeId)}
-            className="ml-2 px-2.5 py-1.5 text-[13px] font-medium border border-[var(--border-color)] rounded-[var(--radius-md)] bg-[var(--bg-app)] dark:bg-[var(--color-neutral-800)] text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent transition-[var(--transition-fast)]"
+            className="ml-2 px-4 py-1.5 text-[13px] font-medium border border-[var(--border-color)] rounded-[var(--radius-md)] bg-[var(--bg-app)] dark:bg-[var(--color-neutral-800)] text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent transition-[var(--transition-fast)]"
             title="Edge type"
           >
             <option value="default">Bezier</option>
@@ -184,8 +184,8 @@ export function Toolbar() {
           title={darkMode ? 'Light mode' : 'Dark mode'}
           icon={darkMode ? <Sun {...iconProps} /> : <Moon {...iconProps} />}
         />
-        <ToolbarButton title="Settings" icon={<Settings {...iconProps} />} />
-        <ToolbarButton title="User" icon={<User {...iconProps} />} />
+        {/* <ToolbarButton title="Settings" icon={<Settings {...iconProps} />} /> */}
+        {/* <ToolbarButton title="User" icon={<User {...iconProps} />} /> */}
       </div>
     </header>
   );
