@@ -67,7 +67,7 @@ function FlowCanvasInner() {
       try {
         const raw = e.dataTransfer.getData('application/json');
         if (raw) defaultData = JSON.parse(raw);
-      } catch {}
+      } catch { }
       const position = reactFlow.screenToFlowPosition({ x: e.clientX, y: e.clientY });
       let x = position.x;
       let y = position.y;
@@ -82,7 +82,7 @@ function FlowCanvasInner() {
         id,
         type,
         position: { x, y },
-        data,
+        data: { ...data, width, height },
         width,
         height,
       };

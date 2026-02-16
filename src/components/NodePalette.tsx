@@ -31,8 +31,8 @@ const PALETTE_ITEMS: PaletteItem[] = [
   // Data
   { id: 'data', label: 'Data Store', category: 'Data', icon: 'data', defaultData: { label: 'Data', width: 160, height: 48 } },
   // Development
-  { id: 'api', label: 'API', category: 'Development', icon: 'api', defaultData: { label: 'API', shape: 'rounded' } },
-  { id: 'service', label: 'Service', category: 'Development', icon: 'service', defaultData: { label: 'Service', shape: 'rounded' } },
+  { id: 'api', label: 'API', category: 'Development', icon: 'api', defaultData: { label: 'API', shape: 'rounded', size: 100} },
+  { id: 'service', label: 'Service', category: 'Development', icon: 'service', defaultData: { label: 'Service', shape: 'rounded', size: 100 } },
   { id: 'queue', label: 'Queue', category: 'Development', icon: 'queue', defaultData: { label: 'Queue', shape: 'rounded' } },
   { id: 'cache', label: 'Cache', category: 'Development', icon: 'cache', defaultData: { label: 'Cache', shape: 'rounded' } },
   { id: 'message', label: 'Message', category: 'Development', icon: 'message', defaultData: { label: 'Message', shape: 'rounded' } },
