@@ -8,3 +8,5 @@ A flow diagram builder with a **Swiss/International** design system: precise 8px
 npm install
 npm run dev
 ```
+
+## Deployed - https://grid-flow-nine.vercel.app
