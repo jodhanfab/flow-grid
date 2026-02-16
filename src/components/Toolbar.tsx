@@ -130,7 +130,7 @@ export function Toolbar() {
       style={{ height: '56px' }}
     >
       <div className="flex items-center gap-6">
-        <h1 className="text-lg font-semibold tracking-tight text-[var(--text-primary)] select-none bg-red-900! px-2 rounded-full text-white italic">
+        <h1 className="text-lg font-semibold tracking-tight text-[var(--text-primary)] select-none bg-red-900! px-2 rounded-full text-white">
           Grid Flow
         </h1>
         <nav className="flex items-center gap-0.5">
