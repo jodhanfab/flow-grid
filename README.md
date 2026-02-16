@@ -1,4 +1,4 @@
-# Flow — Diagram Builder
+# Grid Flow — Diagram Builder
 
 A flow diagram builder with a **Swiss/International** design system: precise 8px grid, limited typography scale, neutral palette with minimal accent colors, and clean UI.
 
